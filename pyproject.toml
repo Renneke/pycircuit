@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pycircuit"
+version = "0.1.0"
+description = "Pure python circuit simulator"
+authors = ["Florian Renneke <florianrenneke@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sympy = "^1.12"
+scipy = "^1.11.2"
+matplotlib = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
